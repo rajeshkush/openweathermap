@@ -1,0 +1,108 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Weather.Test</groupId>
+  <artifactId>Weather.compare</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.3.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>4.3.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>4.3.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>7.3.0</version>
+		</dependency>
+
+<dependency>
+	<groupId>org.hamcrest</groupId>
+	<artifactId>hamcrest-all</artifactId>
+	<version>1.3</version>
+</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.9.1</version>  <!-- 2.46.0 -->
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>6.8.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.6</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.4</version>
+		</dependency>
+
+<!-- Added 03 NOV 2020 .. Ignore if any dependency is old version  -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.21</version>
+			<scope>runtime</scope>
+		</dependency>
+		
+	<dependency>
+	<groupId>org.glassfish.grizzly</groupId>
+	<artifactId>grizzly-npn-bootstrap</artifactId>
+	<version>1.6</version>
+</dependency>
+<!-- Thanks for using https://jar-download.com -->
+	
+
+
+
+		<!-- For Rest Assured.io: For Java version < 9 users: Add the below dependency 
+			to your POM.xml: <dependency> <groupId>io.rest-assured</groupId> <artifactId>json-path</artifactId> 
+			<version>4.2.0</version> <scope>test</scope> </dependency> <dependency> <groupId>io.rest-assured</groupId> 
+			<artifactId>xml-path</artifactId> <version>4.2.0</version> <scope>test</scope> 
+			</dependency> <dependency> <groupId>io.rest-assured</groupId> <artifactId>json-schema-validator</artifactId> 
+			<version>4.2.0</version> <scope>test</scope> </dependency> <dependency> <groupId>junit</groupId> 
+			<artifactId>junit</artifactId> <version>3.8.1</version> <scope>test</scope> 
+			</dependency> -->
+
+	</dependencies>
+
+</project>
